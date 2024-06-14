@@ -1,0 +1,7 @@
+D:\Training_June\C#\methods_parameters_D2\methods_parameters_D2\bin\Debug\methods_parameters_D2.exe.config
+D:\Training_June\C#\methods_parameters_D2\methods_parameters_D2\bin\Debug\methods_parameters_D2.exe
+D:\Training_June\C#\methods_parameters_D2\methods_parameters_D2\bin\Debug\methods_parameters_D2.pdb
+D:\Training_June\C#\methods_parameters_D2\methods_parameters_D2\obj\Debug\methods_parameters_D2.csproj.AssemblyReference.cache
+D:\Training_June\C#\methods_parameters_D2\methods_parameters_D2\obj\Debug\methods_parameters_D2.csproj.CoreCompileInputs.cache
+D:\Training_June\C#\methods_parameters_D2\methods_parameters_D2\obj\Debug\methods_parameters_D2.exe
+D:\Training_June\C#\methods_parameters_D2\methods_parameters_D2\obj\Debug\methods_parameters_D2.pdb

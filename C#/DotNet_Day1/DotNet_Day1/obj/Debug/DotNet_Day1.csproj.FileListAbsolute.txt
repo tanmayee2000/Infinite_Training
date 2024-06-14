@@ -1,0 +1,7 @@
+D:\Training_June\C#\DotNet_Day1\DotNet_Day1\bin\Debug\DotNet_Day1.exe.config
+D:\Training_June\C#\DotNet_Day1\DotNet_Day1\bin\Debug\DotNet_Day1.exe
+D:\Training_June\C#\DotNet_Day1\DotNet_Day1\bin\Debug\DotNet_Day1.pdb
+D:\Training_June\C#\DotNet_Day1\DotNet_Day1\obj\Debug\DotNet_Day1.csproj.AssemblyReference.cache
+D:\Training_June\C#\DotNet_Day1\DotNet_Day1\obj\Debug\DotNet_Day1.csproj.CoreCompileInputs.cache
+D:\Training_June\C#\DotNet_Day1\DotNet_Day1\obj\Debug\DotNet_Day1.exe
+D:\Training_June\C#\DotNet_Day1\DotNet_Day1\obj\Debug\DotNet_Day1.pdb
