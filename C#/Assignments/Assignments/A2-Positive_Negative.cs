@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharp_Practice
+namespace Assignments
 {
-    class positive_negative
+    class A2_Positive_Negative
     {
         static void Main()
         {
