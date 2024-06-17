@@ -41,9 +41,44 @@ namespace D3_Strings
             Console.WriteLine("Sb's Hash Code : {0}", sb.GetHashCode());
             sb.Append(" World");
             Console.WriteLine("Sb's Hash Code : {0}", sb.GetHashCode());
-
-            Console.WriteLine(sb.Capacity);
-        
+            
+            Console.WriteLine(sb);
+            Console.WriteLine(sb.Capacity);       
         }
+
+        public static void Struct_vs_Class()
+        {
+            Student s1 = new Student(); //or like below
+                        //Student s1 = new Student();
+                        //s1.GetHashCode()
+                        //  ValueType
+            s1.marks1 = 50;
+            s1.marks2 = 60;
+            Console.WriteLine(s1.marks1 + s1.marks2);
+
+            Student s2 = new Student();
+            s2 = s1;     //values get copied and not the addresses
+            Console.WriteLine(s2.marks1 + s2.marks2);
+
+            //let us change the value of any one student variable
+
+            s1.marks1 = 80;
+            s1.marks2 = 80;
+
+            Console.WriteLine("After Changes.....");
+            Console.WriteLine(s1.marks1 + s2.marks2);   //call the function in the main() - comment out StringOps() and call this function
+
+            Console.WriteLine(s2.marks1 + s2.marks2);
+        }
+    }
+
+   
+    struct Student        //try changing struct -> class
+    {                     //the above assignment will copy the reference 
+                          //Struct -> Value types (s2 = s1)
+                          //Class -> Reference types (s2 = ref of s1)
+        //public fields
+        public int marks1;
+        public int marks2;
     }
 }

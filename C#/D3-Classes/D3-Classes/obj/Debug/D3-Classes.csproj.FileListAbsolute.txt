@@ -1,0 +1,7 @@
+D:\Training_June\C#\D3-Classes\D3-Classes\bin\Debug\D3-Classes.exe.config
+D:\Training_June\C#\D3-Classes\D3-Classes\bin\Debug\D3-Classes.exe
+D:\Training_June\C#\D3-Classes\D3-Classes\bin\Debug\D3-Classes.pdb
+D:\Training_June\C#\D3-Classes\D3-Classes\obj\Debug\D3-Classes.csproj.AssemblyReference.cache
+D:\Training_June\C#\D3-Classes\D3-Classes\obj\Debug\D3-Classes.csproj.CoreCompileInputs.cache
+D:\Training_June\C#\D3-Classes\D3-Classes\obj\Debug\D3-Classes.exe
+D:\Training_June\C#\D3-Classes\D3-Classes\obj\Debug\D3-Classes.pdb

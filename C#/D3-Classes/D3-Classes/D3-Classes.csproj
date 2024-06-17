@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AAA0E458-0499-4BF1-8EA5-28553AB37019}</ProjectGuid>
+    <ProjectGuid>{A82C916B-66B5-48C3-A3A7-A33BC1661F3E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>D3_Strings</RootNamespace>
-    <AssemblyName>D3-Strings</AssemblyName>
+    <RootNamespace>D3_Classes</RootNamespace>
+    <AssemblyName>D3-Classes</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>D3_Classes.EmployeeTest</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,8 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enumerations.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
