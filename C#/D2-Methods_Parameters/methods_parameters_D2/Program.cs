@@ -49,7 +49,7 @@ namespace methods_parameters_D2
             return "Hello" + msg;
         }
 
-        //Out Parameters (for returning multiple operations
+        //Out Parameters (for returning multiple operations)
         public static int CalculatorFunc(int a, int b, out int sum, out int product, out int difference)
         {
             sum = a + b;
@@ -58,5 +58,10 @@ namespace methods_parameters_D2
 
             return a / b;
         }
+
+
+        //ParamArray - helps in giving a variable no. of args/parameters
+
+
     }
 }

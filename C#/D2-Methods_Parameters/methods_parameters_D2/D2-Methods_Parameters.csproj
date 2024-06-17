@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Arrays.cs" />
     <Compile Include="Decision_making.cs" />
+    <Compile Include="ParamsEg.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

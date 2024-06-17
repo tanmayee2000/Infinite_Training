@@ -1,0 +1,4 @@
+D:\Training_June\C#\D2-Methods_Parameters\methods_parameters_D2\obj\Debug\D2-Methods_Parameters.csproj.AssemblyReference.cache
+D:\Training_June\C#\D2-Methods_Parameters\methods_parameters_D2\obj\Debug\D2-Methods_Parameters.csproj.CoreCompileInputs.cache
+D:\Training_June\C#\D2-Methods_Parameters\methods_parameters_D2\obj\Debug\methods_parameters_D2.exe
+D:\Training_June\C#\D2-Methods_Parameters\methods_parameters_D2\obj\Debug\methods_parameters_D2.pdb
