@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>D3_Classes.EmployeeTest</StartupObject>
+    <StartupObject>D3_Classes.ReadOnly_Constant_Static</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Employee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadOnly_Constant_Static.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

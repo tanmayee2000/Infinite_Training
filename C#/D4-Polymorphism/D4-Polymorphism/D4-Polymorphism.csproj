@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0E687153-1675-49A2-91A1-3FB0738CA8E8}</ProjectGuid>
+    <ProjectGuid>{038D4054-A94A-4FF7-AC33-41DAF3280CFB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharp_Practice</RootNamespace>
-    <AssemblyName>CSharp_Practice</AssemblyName>
+    <RootNamespace>D4_Polymorphism</RootNamespace>
+    <AssemblyName>D4-Polymorphism</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharp_Practice.OperatorOverloading</StartupObject>
+    <StartupObject>D4_Polymorphism.OperatorOverloading</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,12 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ints_equal.cs" />
-    <Compile Include="hello_world.cs" />
-    <Compile Include="Distance.cs" />
-    <Compile Include="positive_negative.cs" />
+    <Compile Include="BaseClassInitialization.cs" />
+    <Compile Include="Inheritance.cs" />
+    <Compile Include="Method_Overriding.cs" />
+    <Compile Include="Name_Method_Hiding.cs" />
+    <Compile Include="OperatorOverloading.cs" />
+    <Compile Include="Polymorphism.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="switch.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

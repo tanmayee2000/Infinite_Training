@@ -69,6 +69,9 @@ namespace D3_Classes
             Employee employee = new Employee();  //calling the 1st constructor
             //employee.GetEmployeeDetails();
             employee.ShowEmpDetails();
+            employee = null;
+            GC.Collect();  //calling the garbage collector - forces to clear the reference memory immediately
+
             Console.WriteLine("-------------");
 
             Employee employee2 = new Employee(20,"Tan",30000);  //calling the 2nd constructor
@@ -76,7 +79,7 @@ namespace D3_Classes
             employee2.ShowEmpDetails();
 
             Employee employee3 = new Employee(30, "Janahvi");
-            //Console.Read();
+            Console.Read(); //try commenting this line to check the destructor
         }
     }
 }
