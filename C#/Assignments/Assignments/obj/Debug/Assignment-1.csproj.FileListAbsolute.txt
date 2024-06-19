@@ -1,7 +1,0 @@
-D:\Training_June\C#\Assignments\Assignments\bin\Debug\Assignment-1.exe.config
-D:\Training_June\C#\Assignments\Assignments\bin\Debug\Assignment-1.exe
-D:\Training_June\C#\Assignments\Assignments\bin\Debug\Assignment-1.pdb
-D:\Training_June\C#\Assignments\Assignments\obj\Debug\Assignment-1.csproj.AssemblyReference.cache
-D:\Training_June\C#\Assignments\Assignments\obj\Debug\Assignment-1.csproj.CoreCompileInputs.cache
-D:\Training_June\C#\Assignments\Assignments\obj\Debug\Assignment-1.exe
-D:\Training_June\C#\Assignments\Assignments\obj\Debug\Assignment-1.pdb
