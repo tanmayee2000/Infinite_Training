@@ -1,2 +1,0 @@
-This is a sample file to understand Git Operations.
-Message addition Trying to check the Pull request.
