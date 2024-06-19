@@ -1,7 +1,0 @@
-D:\Training_June\C#\D4-Polymorphism\D4-Polymorphism\obj\Debug\D4-Polymorphism.csproj.AssemblyReference.cache
-D:\Training_June\C#\D4-Polymorphism\D4-Polymorphism\obj\Debug\D4-Polymorphism.csproj.CoreCompileInputs.cache
-D:\Training_June\C#\D4-Polymorphism\D4-Polymorphism\bin\Debug\D4-Polymorphism.exe.config
-D:\Training_June\C#\D4-Polymorphism\D4-Polymorphism\bin\Debug\D4-Polymorphism.exe
-D:\Training_June\C#\D4-Polymorphism\D4-Polymorphism\bin\Debug\D4-Polymorphism.pdb
-D:\Training_June\C#\D4-Polymorphism\D4-Polymorphism\obj\Debug\D4-Polymorphism.exe
-D:\Training_June\C#\D4-Polymorphism\D4-Polymorphism\obj\Debug\D4-Polymorphism.pdb

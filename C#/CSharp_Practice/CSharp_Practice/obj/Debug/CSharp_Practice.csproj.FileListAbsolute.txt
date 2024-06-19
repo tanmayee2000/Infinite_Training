@@ -1,7 +1,0 @@
-D:\Training_June\C#\CSharp_Practice\CSharp_Practice\bin\Debug\CSharp_Practice.exe.config
-D:\Training_June\C#\CSharp_Practice\CSharp_Practice\bin\Debug\CSharp_Practice.exe
-D:\Training_June\C#\CSharp_Practice\CSharp_Practice\bin\Debug\CSharp_Practice.pdb
-D:\Training_June\C#\CSharp_Practice\CSharp_Practice\obj\Debug\CSharp_Practice.csproj.AssemblyReference.cache
-D:\Training_June\C#\CSharp_Practice\CSharp_Practice\obj\Debug\CSharp_Practice.csproj.CoreCompileInputs.cache
-D:\Training_June\C#\CSharp_Practice\CSharp_Practice\obj\Debug\CSharp_Practice.exe
-D:\Training_June\C#\CSharp_Practice\CSharp_Practice\obj\Debug\CSharp_Practice.pdb
