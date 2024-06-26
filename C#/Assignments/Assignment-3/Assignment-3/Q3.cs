@@ -13,16 +13,16 @@ namespace Assignment_3
         private int ProductNo;
         private double Price;
         private DateTime DateofSale;
-        private int Qty;
+        private int Quantity;
         private double TotalAmount;
 
         // Constructor 
-        public Saledetails(int salesNo, int productNo, double price, int qty, DateTime dateofSale)
+        public Saledetails(int salesNo, int productNo, double price, int quantity, DateTime dateofSale)
         {
             SalesNo = salesNo;
             ProductNo = productNo;
             Price = price;
-            Qty = qty;
+            Quantity = quantity;
             DateofSale = dateofSale;
            
             Sales();
@@ -30,7 +30,7 @@ namespace Assignment_3
 
         public void Sales()
         {
-            TotalAmount = Qty * Price;
+            TotalAmount = Quantity * Price;
         }
 
         public void ShowData()
@@ -39,8 +39,10 @@ namespace Assignment_3
             Console.WriteLine("Product No: " + ProductNo);
             Console.WriteLine("Price: " + Price);
             Console.WriteLine("Date of Sale: " + DateofSale.ToShortDateString());
-            Console.WriteLine("Qty: " + Qty);
+            Console.WriteLine("Quantity: " + Quantity);
             Console.WriteLine("Total Amount: " + TotalAmount);
+
+            Console.Read();
         }
     }
 

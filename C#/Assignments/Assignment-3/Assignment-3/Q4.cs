@@ -29,6 +29,7 @@ namespace Assignment_3
             Phone = phone;
             City = city;
             Console.WriteLine("Parameterized constructor called with all the information.");
+            Console.WriteLine("Customer ID : " + id + "\nCustomer Name : " + name + "\nAge : " + age + "\nPhone : " + phone + "\nCity : " + city);
         }
 
         public void DisplayCustomer()
@@ -41,14 +42,14 @@ namespace Assignment_3
         }
 
         // Destructor
-        ~Customer()
-        {
-            Console.WriteLine($"Destructor called for customer: {Name}");
-            Console.ReadKey();
-        }
+        //~Customer()
+        //{
+        //    Console.WriteLine($"Destructor called for customer: {Name}");
+        //    Console.ReadKey();
+        //}
     }
 
-    class Program
+    class Q4
     {
         static void Main()
         {
@@ -60,7 +61,7 @@ namespace Assignment_3
             Console.WriteLine("\nCustomer 1 Information:");
             customer1.DisplayCustomer();
 
-            GC.Collect(); 
+            //GC.Collect(); //For calling the Destructor
 
             Console.ReadKey();
         }

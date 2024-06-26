@@ -50,7 +50,7 @@ namespace Assignment_3
         private void Credit(double amount)
         {
             Balance += amount;
-            Console.WriteLine($"${amount} deposited successfully.");
+            Console.WriteLine($"{amount} deposited successfully.");
         }
 
         // Withdrawing Amount
@@ -59,7 +59,7 @@ namespace Assignment_3
             if (amount <= Balance)
             {
                 Balance -= amount;
-                Console.WriteLine($"${amount} withdrawn successfully.");
+                Console.WriteLine($"{amount} withdrawn successfully.");
             }
             else
             {
@@ -72,7 +72,7 @@ namespace Assignment_3
             Console.WriteLine($"Account Number: {Account_no}");
             Console.WriteLine($"Customer Name: {Customer_name}");
             Console.WriteLine($"Account Type: {Account_type}");
-            Console.WriteLine($"Current Balance: ${Balance}");
+            Console.WriteLine($"Current Balance: {Balance}");
         }
     }
 

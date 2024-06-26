@@ -73,12 +73,16 @@ namespace Assignment_3
         
         public void DisplayData()
         {
+            Console.WriteLine("-------------------------");
+
             Console.WriteLine($"Student Details:");
             Console.WriteLine($"Roll No: {Roll_no}");
             Console.WriteLine($"Name: {Name}");
             Console.WriteLine($"Class: {Class}");
             Console.WriteLine($"Semester: {Semester}");
             Console.WriteLine($"Branch: {Branch}");
+
+            Console.Read();
         }
     }
 
@@ -86,13 +90,13 @@ namespace Assignment_3
     {
         static void Main()
         {
-            Student student = new Student(111, "Tanmayee", "12th", "Semester 1", "Science");
+            Student student = new Student(111, "Tanmayee", "12th", "1", "Science");          
 
             student.GetMarks();
 
-            student.DisplayData();
-
             student.DisplayResult();
+
+            student.DisplayData();
         }
     }
 }
