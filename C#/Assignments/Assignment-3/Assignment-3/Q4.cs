@@ -8,7 +8,7 @@ namespace Assignment_3
 {
     public class Customer
     {
-        public int CustomerId { get; set; }
+        public int Customer_Id { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
         public string Phone { get; set; }
@@ -23,7 +23,7 @@ namespace Assignment_3
         // Constructor with all information
         public Customer(int id, string name, int age, string phone, string city)
         {
-            CustomerId = id;
+            Customer_Id = id;
             Name = name;
             Age = age;
             Phone = phone;
@@ -33,7 +33,7 @@ namespace Assignment_3
 
         public void DisplayCustomer()
         {
-            Console.WriteLine($"Customer ID: {CustomerId}");
+            Console.WriteLine($"Customer ID: {Customer_Id}");
             Console.WriteLine($"Name: {Name}");
             Console.WriteLine($"Age: {Age}");
             Console.WriteLine($"Phone: {Phone}");
