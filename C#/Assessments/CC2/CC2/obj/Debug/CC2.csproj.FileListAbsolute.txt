@@ -1,0 +1,7 @@
+D:\Training_June\C#\Assessments\CC2\CC2\obj\Debug\CC2.csproj.AssemblyReference.cache
+D:\Training_June\C#\Assessments\CC2\CC2\obj\Debug\CC2.csproj.CoreCompileInputs.cache
+D:\Training_June\C#\Assessments\CC2\CC2\bin\Debug\CC2.exe.config
+D:\Training_June\C#\Assessments\CC2\CC2\bin\Debug\CC2.exe
+D:\Training_June\C#\Assessments\CC2\CC2\bin\Debug\CC2.pdb
+D:\Training_June\C#\Assessments\CC2\CC2\obj\Debug\CC2.exe
+D:\Training_June\C#\Assessments\CC2\CC2\obj\Debug\CC2.pdb
