@@ -30,7 +30,7 @@ namespace CC1
             charArray[0] = last_char;
             charArray[input_str.Length - 1] = first_char;
 
-            return new string(charArray);
+            return new string(charArray);            
         }
     }
 }
