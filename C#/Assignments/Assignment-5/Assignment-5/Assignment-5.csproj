@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E2C2F9DF-A9CE-4198-A42A-B761928BF757}</ProjectGuid>
+    <ProjectGuid>{B6AEE8F5-999E-4301-89A8-69356150A290}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Assignment_4</RootNamespace>
-    <AssemblyName>Assignment-4</AssemblyName>
+    <RootNamespace>Assignment_5</RootNamespace>
+    <AssemblyName>Assignment-5</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Assignment_4.Q3</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,10 +45,6 @@
   <ItemGroup>
     <Compile Include="Q1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Q2.cs" />
-    <Compile Include="Q3.cs" />
-    <Compile Include="Q4.cs" />
-    <Compile Include="Q5.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
