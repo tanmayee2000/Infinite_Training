@@ -26,7 +26,7 @@ namespace Assignment_5
             return new Box(Lengths_sum, Breadths_sum);
         }
     }
-    class Q1
+    class Q2
     {
         static void Main()
         {
