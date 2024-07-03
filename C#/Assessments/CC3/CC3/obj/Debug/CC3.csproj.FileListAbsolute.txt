@@ -1,0 +1,7 @@
+D:\Training_June\C#\Assessments\CC3\CC3\bin\Debug\CC3.exe.config
+D:\Training_June\C#\Assessments\CC3\CC3\bin\Debug\CC3.exe
+D:\Training_June\C#\Assessments\CC3\CC3\bin\Debug\CC3.pdb
+D:\Training_June\C#\Assessments\CC3\CC3\obj\Debug\CC3.csproj.AssemblyReference.cache
+D:\Training_June\C#\Assessments\CC3\CC3\obj\Debug\CC3.csproj.CoreCompileInputs.cache
+D:\Training_June\C#\Assessments\CC3\CC3\obj\Debug\CC3.exe
+D:\Training_June\C#\Assessments\CC3\CC3\obj\Debug\CC3.pdb
