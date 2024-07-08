@@ -10,7 +10,6 @@ namespace Assignment_6
     {
         static void Main()
         {
-            // Taking input from the user
             Console.WriteLine("Enter a list of words separated by spaces : ");
             string input = Console.ReadLine();
 

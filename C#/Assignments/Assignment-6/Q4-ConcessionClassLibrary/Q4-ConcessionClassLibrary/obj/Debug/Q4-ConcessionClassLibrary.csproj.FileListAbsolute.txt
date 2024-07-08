@@ -1,0 +1,6 @@
+D:\Training_June\C#\Assignments\Assignment-6\Q4-ConcessionClassLibrary\Q4-ConcessionClassLibrary\bin\Debug\Q4-ConcessionClassLibrary.dll
+D:\Training_June\C#\Assignments\Assignment-6\Q4-ConcessionClassLibrary\Q4-ConcessionClassLibrary\bin\Debug\Q4-ConcessionClassLibrary.pdb
+D:\Training_June\C#\Assignments\Assignment-6\Q4-ConcessionClassLibrary\Q4-ConcessionClassLibrary\obj\Debug\Q4-ConcessionClassLibrary.csproj.AssemblyReference.cache
+D:\Training_June\C#\Assignments\Assignment-6\Q4-ConcessionClassLibrary\Q4-ConcessionClassLibrary\obj\Debug\Q4-ConcessionClassLibrary.csproj.CoreCompileInputs.cache
+D:\Training_June\C#\Assignments\Assignment-6\Q4-ConcessionClassLibrary\Q4-ConcessionClassLibrary\obj\Debug\Q4-ConcessionClassLibrary.dll
+D:\Training_June\C#\Assignments\Assignment-6\Q4-ConcessionClassLibrary\Q4-ConcessionClassLibrary\obj\Debug\Q4-ConcessionClassLibrary.pdb

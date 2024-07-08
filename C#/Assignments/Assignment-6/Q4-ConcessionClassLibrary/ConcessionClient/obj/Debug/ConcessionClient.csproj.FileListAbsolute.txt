@@ -1,0 +1,10 @@
+D:\Training_June\C#\Assignments\Assignment-6\Q4-ConcessionClassLibrary\ConcessionClient\bin\Debug\ConcessionClient.exe.config
+D:\Training_June\C#\Assignments\Assignment-6\Q4-ConcessionClassLibrary\ConcessionClient\bin\Debug\ConcessionClient.exe
+D:\Training_June\C#\Assignments\Assignment-6\Q4-ConcessionClassLibrary\ConcessionClient\bin\Debug\ConcessionClient.pdb
+D:\Training_June\C#\Assignments\Assignment-6\Q4-ConcessionClassLibrary\ConcessionClient\bin\Debug\Q4-ConcessionClassLibrary.dll
+D:\Training_June\C#\Assignments\Assignment-6\Q4-ConcessionClassLibrary\ConcessionClient\bin\Debug\Q4-ConcessionClassLibrary.pdb
+D:\Training_June\C#\Assignments\Assignment-6\Q4-ConcessionClassLibrary\ConcessionClient\obj\Debug\ConcessionClient.csproj.AssemblyReference.cache
+D:\Training_June\C#\Assignments\Assignment-6\Q4-ConcessionClassLibrary\ConcessionClient\obj\Debug\ConcessionClient.csproj.CoreCompileInputs.cache
+D:\Training_June\C#\Assignments\Assignment-6\Q4-ConcessionClassLibrary\ConcessionClient\obj\Debug\ConcessionClient.csproj.CopyComplete
+D:\Training_June\C#\Assignments\Assignment-6\Q4-ConcessionClassLibrary\ConcessionClient\obj\Debug\ConcessionClient.exe
+D:\Training_June\C#\Assignments\Assignment-6\Q4-ConcessionClassLibrary\ConcessionClient\obj\Debug\ConcessionClient.pdb

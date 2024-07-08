@@ -15,7 +15,7 @@ namespace Assignment_6
             int[] numbers = Console.ReadLine().Split(',').Select(int.Parse).ToArray();
 
             Console.WriteLine("---------------------------");
-            Console.WriteLine("\nNumbers with their quares greater than 20 are : ");
+            Console.WriteLine("\nNumbers with their squares greater than 20 are : ");
             Console.WriteLine("\n");
 
 
