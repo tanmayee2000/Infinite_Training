@@ -1,0 +1,7 @@
+D:\Training_June\C#\Assessments\CC4\CC4\obj\Debug\CC4.csproj.AssemblyReference.cache
+D:\Training_June\C#\Assessments\CC4\CC4\obj\Debug\CC4.csproj.CoreCompileInputs.cache
+D:\Training_June\C#\Assessments\CC4\CC4\bin\Debug\CC4.exe.config
+D:\Training_June\C#\Assessments\CC4\CC4\bin\Debug\CC4.exe
+D:\Training_June\C#\Assessments\CC4\CC4\bin\Debug\CC4.pdb
+D:\Training_June\C#\Assessments\CC4\CC4\obj\Debug\CC4.exe
+D:\Training_June\C#\Assessments\CC4\CC4\obj\Debug\CC4.pdb
