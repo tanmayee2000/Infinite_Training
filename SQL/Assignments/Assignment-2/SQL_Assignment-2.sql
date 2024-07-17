@@ -141,6 +141,7 @@ Select * from EMP
   Select EName as 'Employee Name', Sal * 12 as 'Annual Salary' 
   From EMP where EName = 'SMITH'
 
+
 --14. List the name and salary for all employees whose salary is not in the range of 1500 and 2850.
   
   Select EName as 'Employee Name', Sal as 'Salary' 
@@ -149,4 +150,9 @@ Select * from EMP
 
 
 --15. Find all managers who have more than 2 employees reporting to them.
-  
+  Select e1.EName, Count(*) as 'No. Of Employees'
+  From EMP e1
+  Join 
+  EMP e2 on e1.EmpNo = e2.Mgr_id
+  Group By e1.EName
+  Having Count(*)>2;
