@@ -131,7 +131,21 @@ insert into Rental_3nf(client_no, property_no, rent_start, rent_finish, rent) va
 ('CR56', 'PG16', '2002-11-01', '2003-08-01', 450)
 
 ------------------------------------------------------------------------------------------------------
+
+--- 3NF Tables
+
 select * from Clients_3nf
 select * from Properties_3nf
 select * from property_owners_3NF
 select * from Rental_3nf
+
+------------------------------------------------------------------------------------------------------
+
+--Displaying the entire table all together
+
+Select clients_3nf.client_no, p_address, rent_start, rent_finish, rent, o_Name
+From Clients_3nf Join Rental_3nf on clients_3nf.Client_no = Rental_3nf.client_no
+Join Properties_3nf on Rental_3nf.property_no = Properties_3nf.property_no
+Join property_owners_3NF on properties_3nf.owner_no = property_owners_3NF.owner_no
+
+------------------------------------------------------------------------------------------------------
