@@ -1,0 +1,7 @@
+D:\Training_June\SQL\Assessments\CC2-ADO_SQL\CC2-ADO_SQL\bin\Debug\CC2-ADO_SQL.exe.config
+D:\Training_June\SQL\Assessments\CC2-ADO_SQL\CC2-ADO_SQL\bin\Debug\CC2-ADO_SQL.exe
+D:\Training_June\SQL\Assessments\CC2-ADO_SQL\CC2-ADO_SQL\bin\Debug\CC2-ADO_SQL.pdb
+D:\Training_June\SQL\Assessments\CC2-ADO_SQL\CC2-ADO_SQL\obj\Debug\CC2-ADO_SQL.csproj.AssemblyReference.cache
+D:\Training_June\SQL\Assessments\CC2-ADO_SQL\CC2-ADO_SQL\obj\Debug\CC2-ADO_SQL.csproj.CoreCompileInputs.cache
+D:\Training_June\SQL\Assessments\CC2-ADO_SQL\CC2-ADO_SQL\obj\Debug\CC2-ADO_SQL.exe
+D:\Training_June\SQL\Assessments\CC2-ADO_SQL\CC2-ADO_SQL\obj\Debug\CC2-ADO_SQL.pdb
