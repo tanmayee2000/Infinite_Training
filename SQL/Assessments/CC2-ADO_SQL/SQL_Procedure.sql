@@ -21,9 +21,9 @@ Begin
 
   Select @gen_emp_no = case
                        when max(Emp_no) is null then 0
-                       else
-                       max(Emp_no)
-                       end  
+					   else 
+					   max(Emp_no)
+					   end
   From Employee_Details
   set @gen_emp_no = @gen_emp_no + 1
 
@@ -38,3 +38,5 @@ Select * From Employee_Details
 --Displaying After Inserting through ADO Methods
 
 Select * From Employee_Details
+
+
