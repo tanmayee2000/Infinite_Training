@@ -1,0 +1,7 @@
+D:\Training_June\ADO\Assignments\Assignment-1(LINQ_Employee)\Assignment-1(LINQ_Employee)\bin\Debug\Assignment-1(LINQ_Employee).exe.config
+D:\Training_June\ADO\Assignments\Assignment-1(LINQ_Employee)\Assignment-1(LINQ_Employee)\bin\Debug\Assignment-1(LINQ_Employee).exe
+D:\Training_June\ADO\Assignments\Assignment-1(LINQ_Employee)\Assignment-1(LINQ_Employee)\bin\Debug\Assignment-1(LINQ_Employee).pdb
+D:\Training_June\ADO\Assignments\Assignment-1(LINQ_Employee)\Assignment-1(LINQ_Employee)\obj\Debug\Assignment-1(LINQ_Employee).csproj.AssemblyReference.cache
+D:\Training_June\ADO\Assignments\Assignment-1(LINQ_Employee)\Assignment-1(LINQ_Employee)\obj\Debug\Assignment-1(LINQ_Employee).csproj.CoreCompileInputs.cache
+D:\Training_June\ADO\Assignments\Assignment-1(LINQ_Employee)\Assignment-1(LINQ_Employee)\obj\Debug\Assignment-1(LINQ_Employee).exe
+D:\Training_June\ADO\Assignments\Assignment-1(LINQ_Employee)\Assignment-1(LINQ_Employee)\obj\Debug\Assignment-1(LINQ_Employee).pdb
