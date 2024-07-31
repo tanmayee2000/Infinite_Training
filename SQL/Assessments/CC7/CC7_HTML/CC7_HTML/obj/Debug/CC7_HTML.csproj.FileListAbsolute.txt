@@ -1,0 +1,7 @@
+D:\Training_June\SQL\Assessments\CC7\CC7_HTML\CC7_HTML\bin\Debug\CC7_HTML.exe.config
+D:\Training_June\SQL\Assessments\CC7\CC7_HTML\CC7_HTML\bin\Debug\CC7_HTML.exe
+D:\Training_June\SQL\Assessments\CC7\CC7_HTML\CC7_HTML\bin\Debug\CC7_HTML.pdb
+D:\Training_June\SQL\Assessments\CC7\CC7_HTML\CC7_HTML\obj\Debug\CC7_HTML.csproj.AssemblyReference.cache
+D:\Training_June\SQL\Assessments\CC7\CC7_HTML\CC7_HTML\obj\Debug\CC7_HTML.csproj.CoreCompileInputs.cache
+D:\Training_June\SQL\Assessments\CC7\CC7_HTML\CC7_HTML\obj\Debug\CC7_HTML.exe
+D:\Training_June\SQL\Assessments\CC7\CC7_HTML\CC7_HTML\obj\Debug\CC7_HTML.pdb
