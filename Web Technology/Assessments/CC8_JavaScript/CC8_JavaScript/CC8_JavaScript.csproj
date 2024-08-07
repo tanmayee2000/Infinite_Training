@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C586AE55-0F6A-4A85-9CFA-E9D5FEBCB8D7}</ProjectGuid>
+    <ProjectGuid>{372875A1-94CF-48EB-87A5-A630FF0D1AAA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CC7_HTML</RootNamespace>
-    <AssemblyName>CC7_HTML</AssemblyName>
+    <RootNamespace>CC8_JavaScript</RootNamespace>
+    <AssemblyName>CC8_JavaScript</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,8 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CC7_Q1.html" />
-    <Content Include="CC7_Q2.html" />
+    <Content Include="Q1.html" />
+    <Content Include="Q2-Odd_Even.html" />
+    <Content Include="Q3.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

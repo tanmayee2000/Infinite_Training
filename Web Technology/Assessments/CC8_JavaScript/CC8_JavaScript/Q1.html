@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Multiplication and Division Calculator</title>
+    <style>
+        input[type="text"] {
+            width: 50px;
+        }
+        h1 {
+            color: #00698f; /* blue */
+        }
+        #result {
+            color: #FF0000; /* red */
+        }
+    </style>
+</head>
+<body>
+    <h1>Multiplication and Division Calculator</h1>
+
+    <form>
+        <label for="num1">Number 1:</label>
+        <input type="text" id="num1" name="num1"><br><br>
+        <label for="num2">Number 2:</label>
+        <input type="text" id="num2" name="num2"><br><br>
+
+        <button type="button" onclick="multiply()">Multiply</button>
+        <button type="button" onclick="divide()">Divide</button>
+    </form>
+    <p id="result"></p>
+
+    <script>
+        function multiply() {
+            const num1 = parseFloat(document.getElementById("num1").value);
+            const num2 = parseFloat(document.getElementById("num2").value);
+
+            const result = num1 * num2;
+            document.getElementById("result").innerHTML = "The multiplication of"+" "+ num1 +" "+ "and"+" " + num2 +" "+ "is : " + result;
+        }
+
+        function divide() {
+            const num1 = parseFloat(document.getElementById("num1").value);
+            const num2 = parseFloat(document.getElementById("num2").value);
+
+            if (num2 !== 0) {
+                const result = num1 / num2;
+                document.getElementById("result").innerHTML = "The division of" + " " + num1 +" "+ "by"+" "+ num2+" "+ "is : " +  result;
+            } else {
+                document.getElementById("result").innerHTML = "Cannot divide by zero!";
+            }
+        }
+    </script>
+
+</body>
+</html>
+
