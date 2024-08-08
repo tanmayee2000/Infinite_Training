@@ -1,0 +1,77 @@
+MINI-PROJECT
+
+RAILWAY RESERVATION SYSTEM
+
+* Console Application using CSharp
+* Framework can be either using ADO or Entity Framework(EF)
+* Backend using SQL (SQL Server Management Studio)
+
+Flow :-
+
+Tables in SQL : 
+
+ * Admin - Admin who can :
+              Add or Delete trains
+              Update the Status of the trains
+              Modify the price of the ticket
+
+ * User - Must have login credentials
+              Username
+              Password
+
+ * Trains - Train No 
+            Train Name 
+            From(Source) 
+            To(Destination) 
+            Date_of_Journey  
+            Class_of_Travel(Sleeper/1AC/2AC/3AC) 
+            Seats Available (must keep updating according to any operation(book or cancel))
+            Status of Trains (Active or Inactive)
+            
+ Refer the train table to book the ticket:
+
+ * Bookings - Autogenerate the Booking ID,
+              The User should be able to book multiple seats(max. 3) in the same train for different classes
+              Class_of_Travel(Sleeper/1AC/2AC/3AC) 
+              Price_of_Ticket(According to the Class chosen, must differ for each class)
+              Gender (?)
+              Quota for Senior Citizens (?)
+              After Booking, an entry to be made in the bookings table, and the no.seats available should be updated
+
+ * Cancellations - The logged in user should be able to cancel a booked ticket through the booking id
+                   Partial cancellation should be possible if multiple seats are booked.
+                   Make an entry in the cancellation table and also update the no.seats available
+
+
+Execution Flow :
+
+1. A Menu Driven project. When the application is executed, a menu must be shown which has contents :
+   1.Admin
+   2.User
+
+2. If Admin is chosen, another menu must be displayed in a new screen.
+   Admin menu : Add Train
+                Delete Train
+                Modify Status of train
+                Modify Price of tickets
+
+3. If user is chosen, another menu in the same screen asking if its an existing user or a new user
+   -If a new user, then allow him to register using taking input for username and Password and updating the information in the Users Table
+   -If Existing user, ask for username and password - if valid, show a menu as : 
+    1.View Trains : Displays all the trains list
+    2.Book a Ticket 
+    3.Cancel a Ticket
+    4.Exit
+   -if invalid credentials, say "User Not Found" and go back to the menu.
+
+Do the operations as per selected option from the menu.
+
+4. Print the Booked or Cancelled ticket in a neat tabular form with all the details like :
+   -Passenger Name
+   -Booking ID
+   -Train Name
+   -Seat no.
+   -Class
+   -Date of Journey
+   -Status : Booked or Cancelled
+   

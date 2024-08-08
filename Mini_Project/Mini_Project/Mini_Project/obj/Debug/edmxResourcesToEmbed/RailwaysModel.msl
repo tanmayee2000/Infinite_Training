@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Mini_ProjectModelStoreContainer" CdmEntityContainer="Mini_ProjectEntities">
+    <EntitySetMapping Name="Admins">
+      <EntityTypeMapping TypeName="Mini_ProjectModel.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="AdminId" ColumnName="AdminId" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bookings">
+      <EntityTypeMapping TypeName="Mini_ProjectModel.Booking">
+        <MappingFragment StoreEntitySet="Bookings">
+          <ScalarProperty Name="BookingId" ColumnName="BookingId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="TrainNo" ColumnName="TrainNo" />
+          <ScalarProperty Name="ClassOfTravel" ColumnName="ClassOfTravel" />
+          <ScalarProperty Name="DateOfJourney" ColumnName="DateOfJourney" />
+          <ScalarProperty Name="PriceOfTicket" ColumnName="PriceOfTicket" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="SeniorCitizenQuota" ColumnName="SeniorCitizenQuota" />
+          <ScalarProperty Name="SeatsBooked" ColumnName="SeatsBooked" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cancellations">
+      <EntityTypeMapping TypeName="Mini_ProjectModel.Cancellation">
+        <MappingFragment StoreEntitySet="Cancellations">
+          <ScalarProperty Name="CancellationId" ColumnName="CancellationId" />
+          <ScalarProperty Name="BookingId" ColumnName="BookingId" />
+          <ScalarProperty Name="CancellationDate" ColumnName="CancellationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Trains">
+      <EntityTypeMapping TypeName="Mini_ProjectModel.Train">
+        <MappingFragment StoreEntitySet="Trains">
+          <ScalarProperty Name="TrainNo" ColumnName="TrainNo" />
+          <ScalarProperty Name="TrainName" ColumnName="TrainName" />
+          <ScalarProperty Name="FromStation" ColumnName="FromStation" />
+          <ScalarProperty Name="ToStation" ColumnName="ToStation" />
+          <ScalarProperty Name="ClassOfTravel" ColumnName="ClassOfTravel" />
+          <ScalarProperty Name="SeatsAvailable" ColumnName="SeatsAvailable" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TrainStatus" ColumnName="TrainStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Mini_ProjectModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
