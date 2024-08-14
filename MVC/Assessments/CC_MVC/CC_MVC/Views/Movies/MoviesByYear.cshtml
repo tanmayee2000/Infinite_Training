@@ -1,7 +1,8 @@
-﻿@model CC_MVC.Models.Movies
+﻿@model IEnumerable<CC_MVC.Models.Movies>
 
 @{
     ViewBag.Title = "Movies By Year";
+    var db = new MoviesContext();
     int year = ViewBag.Year;
     var movies = db.Movies.Where(m => m.DateofRelease.Year == year).ToList();
 }
