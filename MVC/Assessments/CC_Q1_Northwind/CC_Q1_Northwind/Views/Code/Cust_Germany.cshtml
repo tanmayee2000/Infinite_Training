@@ -1,0 +1,11 @@
+﻿@model IEnumerable<CC_Q1_Northwind.Customer>
+
+<h2>Customers In Germany</h2>
+
+<ol>
+    @foreach (var customer in Model)
+    {
+     <li>@customer.CompanyName (@customer.Country)</li>
+    }
+</ol>
+

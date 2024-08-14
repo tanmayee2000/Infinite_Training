@@ -1,0 +1,23 @@
+﻿@model CC_MVC.Models.Movies
+
+@{
+    ViewBag.Title = "Movies By Year";
+    int year = ViewBag.Year;
+    var movies = db.Movies.Where(m => m.DateofRelease.Year == year).ToList();
+}
+
+<h2>Movies Released in @year</h2>
+
+<ul>
+    @foreach (var movie in movies)
+    {
+        <li>
+            @movie.Moviename (@movie.DateofRelease.ToString("yyyy-MM-dd"))
+        </li>
+    }
+</ul>
+
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
