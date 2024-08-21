@@ -20,6 +20,7 @@ namespace CC_WebAPI.Controllers
             new Country { ID = 5, CountryName = "China", Capital = "Beijing" }
         };
 
+        //GET All countries
         [HttpGet]
         [Route("All")]
         public IEnumerable<Country> Get()
@@ -27,6 +28,7 @@ namespace CC_WebAPI.Controllers
             return Countrylist;
         }
 
+        //GET Country Byid
         [HttpGet]
         [Route("ById")]
         public IHttpActionResult GetCountryByName(int Id)
@@ -39,6 +41,7 @@ namespace CC_WebAPI.Controllers
             return Ok(Countryname);
         }
 
+        //POST add country
         [HttpPost]
         [Route("Post")]
         public List<Country> Post([FromBody] Country country)
@@ -47,6 +50,7 @@ namespace CC_WebAPI.Controllers
             return Countrylist;
         }
 
+        //PUT Update country
         [HttpPut]
         [Route("Put")]
         public IEnumerable<Country> Put(int id, [FromBody] Country c)
@@ -55,6 +59,7 @@ namespace CC_WebAPI.Controllers
             return Countrylist;
         }
 
+        //DELETE delete country
         [HttpDelete]
         [Route("Delete")]
         public IEnumerable<Country> Delete(int id)
